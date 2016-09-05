@@ -10,4 +10,4 @@ Por otro lado, la creación de software libre tiene una importancia vital dentro
 
 Por ejemplo, en la presentación siguiente se exponen varias razones para liberar software libre si eres investigador en la universidad. Si no lo eres, algunas puede que no te afecten, pero la mayoría valen para todo el mundo. 
 
-[!](https://docs.google.com/presentation/d/1JEQjCF3oIReOTZdRWM8aJm0ghzb1yy7rxGTRoKV0Ndc/embed#slide=id.i0)
+https://docs.google.com/presentation/d/1JEQjCF3oIReOTZdRWM8aJm0ghzb1yy7rxGTRoKV0Ndc/embed#slide=id.i0
