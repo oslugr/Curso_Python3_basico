@@ -22,11 +22,11 @@ En Windows se sigue el proceso habitual en las instalaciones: ir haciendo click 
 
 Os mostramos a continuación un screencast sobre la instalación en Ms Windows:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Q4prb42X7N8" frameborder="0" allowfullscreen></iframe>
+https://www.youtube.com/embed/Q4prb42X7N8
 
 Lo que instalarás en Windows será un intérprete de línea de comandos, que aparecerá en el menú como se muestra en la ilustración adjunta, con el texto Python (command line); es decir, Python (línea de órdenes). 
 
-[!](/oslugr/Curso_Python_basico/blob/master/img/python-ventana-windows.png)
+![](https://github.com/oslugr/Curso_Python_basico/blob/master/img/python-ventana-windows.png)
 
 El resultado de la ejecución aparece arriba. Desde ahí se pueden ejecutar directamente órdenes en Python, como veremos más adelante. También se instala un fichero de ayuda al que se puede acceder desde el menú -> Todos los programas -> Python 2.7 -> Python Manuals (o Manuales de Python).
 
