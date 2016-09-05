@@ -10,4 +10,4 @@ Por otro lado, la creación de software libre tiene una importancia vital dentro
 
 Por ejemplo, en la presentación siguiente se exponen varias razones para liberar software libre si eres investigador en la universidad. Si no lo eres, algunas puede que no te afecten, pero la mayoría valen para todo el mundo. 
 
-<iframe src="https://docs.google.com/presentation/d/1JEQjCF3oIReOTZdRWM8aJm0ghzb1yy7rxGTRoKV0Ndc/embed#slide=id.i0" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe><div style="margin-bottom:5px"> <strong> <a href="https://hubslide.com/juan-j-merelo/10razones-s56e03fd0e958d52c459a0416.html" title="10razones" target="_blank">10razones</a> </strong> from <strong><a target="_blank" href="https://hubslide.com/a/juan-j-merelo">Juan J. Merelo</a></strong> </div>
+[!](https://docs.google.com/presentation/d/1JEQjCF3oIReOTZdRWM8aJm0ghzb1yy7rxGTRoKV0Ndc/embed#slide=id.i0)
