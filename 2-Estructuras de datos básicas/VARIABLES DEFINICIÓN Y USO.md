@@ -1,4 +1,4 @@
-## ¿Qué es una variable?
+## ¿QUÉ ES UNA VARIABLE?
 
 En Informática, una variable es "algo" en lo que puedes almacenar información para su uso posterior.
 
@@ -11,14 +11,14 @@ Las variables en Python se crean cuando se **definen**, es decir, cuando se les 
 Para crear una variable, ponemos nombre a la variable, a continuación colocamos el signo igual y el valor al que queremos asignar a la variable.
 
 Vamos a ver ejemplos de definiciones de variables:
-```
-    y = 2.5
-    esquina = 10 + 5
-    Nombre1 = "El alumno ya sabe Python"
-    _y2 = 'p'
-    dias_de_la_semana = ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado', 'Domingo']
-    Fecha_de_nacimiento_del curso = ['Lunes', 1, 'Octubre', 2010]
-    año = 2010
+```python
+y = 2.5
+esquina = 10 + 5
+Nombre1 = "El alumno ya sabe Python"
+_y2 = 'p'
+dias_de_la_semana = ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado', 'Domingo']
+Fecha_de_nacimiento_del curso = ['Lunes', 1, 'Octubre', 2010]
+año = 2010
 ```
 El nombre de una variable debe empezar por una letra o por un carácter subrayado (_) y puede seguir con más letras, números o subrayados.
 
