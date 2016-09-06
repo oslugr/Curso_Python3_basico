@@ -1,4 +1,4 @@
-## Movernos por la lista
+## MOVERNOS POR UNA LISTA
 
 Para movernos por la lista y acceder a uno de sus elementos utilizamos el nombre con el que hacemos referencia a la lista. En este caso lo hemos llamado lista, aunque podría haber sido cualquier otro nombre válido. Para referirnos a un elemento de la lista utilizamos los corchetes indicando un índice. Dicho índice va de 0 hastra n-1, siendo n el número de elementos que tiene la lista.
 
