@@ -8,19 +8,12 @@ Los operadores más básicos son los aritméticos, que permiten tareas simples c
 
 |  Nombre           | Símbolo 	      | Ejemplo                         | Explicación |                               
 |  :------          | :------         | :------                         | :---------- |                                       
-
 | Suma 	            |  +              | resultado= primera + segunda 	  | Suma las cifras o variables                       
-
 | Resta 	          |  -              | resultado= primera - segunda 	  | Resta las cifras o variables 
-
 | Multiplicación    |	*               | resultado= primera * segunda 	  | Multiplica las cifras o variables   
-
 | División 	        | /               | resultado= primera / segunda 	  | Divide las primera cifra o variable por la segunda 
-
 | División entera   | //              | resultado= primera // segunda   | Como el anterior, pero sin decimales            
-
 | Módulo 	          | %               | resultado= primera % segunda    | Obtiene el resto de dividir la primera por la segunda
-
 | Exponente 	      | **               | resultado= primera ** segunda  | Eleva la primera a la potencia de la segunda       
 
 
