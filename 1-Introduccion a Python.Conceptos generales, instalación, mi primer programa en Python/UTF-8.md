@@ -10,9 +10,8 @@ Para advertir a python de que este es el formato, la forma más simple es indica
 
 de modo que la cabecera quedaría más o menos así:
 
-:::python
-#!/usr/bin/python
-# -*- coding: utf-8 -*-
+    #!/usr/bin/python
+    # -*- coding: utf-8 -*-
 
 Con esto, el interprete de python debería admitir el uso de caracteres **UTF-8** en nuestros scripts. En cualquier caso, no es recomendable el uso de caracteres no **ASCII** en nombre de variables o funciones, etc.
 
