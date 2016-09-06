@@ -13,7 +13,6 @@ Por ejemplo:
 Prueba a ejecutar el siguiente código.
 
     #!/usr/bin/python 
-
     # coding: UTF-8 
 
     # Esto es un entero
@@ -25,7 +24,6 @@ Prueba a ejecutar el siguiente código.
     Cadena = "Hola Mundo" 
 
     print type(Entero) 
-
     print type(Cadena) 
 
 Existen una serie de *"alias"* previstos para poder hacer comparaciones con los valores que retorna **type()**, de los cuales los más usado son los siguientes:
