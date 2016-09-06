@@ -14,9 +14,8 @@ El resultado será el mismo de antes, como es natural.
 
 En entornos Linux/Unix es habitual también incluir al principio del fichero con el programa una línea que permite ejecutarlo directamente desde línea de comandos, sin necesidad de llamar explícitamente al intérprete. Esta línea, llamada "shebang", suele ser `#!/usr/bin/python` o `#!/usr/bin/env python` (esta última más genérica). El fichero quedaría algo así:
 
-`#!/usr/bin/python
-
-print "Hola, mundo libre"`
+    #!/usr/bin/python
+    print "Hola, mundo libre"
 
 (Nótese la línea en blanco). Para hacerlo ejecutable se sigue también el procedimiento habitual en Linux:
 
