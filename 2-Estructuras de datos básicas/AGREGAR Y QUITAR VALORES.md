@@ -1,6 +1,6 @@
-## Agregar y quitar valores
+## AGREGAR Y QUITAR VALORES
 
-### Metiendo Datos
+### METIENDO DATOS
 
 La instrucción básica para añadir elementos a una lista es append(), que agrega un nuevo elemento al final de esta.
 
