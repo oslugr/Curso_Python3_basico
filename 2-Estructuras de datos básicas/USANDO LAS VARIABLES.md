@@ -1,4 +1,4 @@
-## Usando las variables
+## USANDO LAS VARIABLES
 
 Para saber el tipo de una variable, tenemos la función **type**, que se usa del siguiente modo:
 
@@ -11,21 +11,21 @@ Esta función retorna el tipo de dato de la variable.
 Por ejemplo:
 
 Prueba a ejecutar el siguiente código.
+```python
+#!/usr/bin/python 
+# coding: UTF-8 
 
-    #!/usr/bin/python 
-    # coding: UTF-8 
+# Esto es un entero
 
-    # Esto es un entero
+Entero = 32 
 
-    Entero = 32 
+# Esto es una cadena 
 
-    # Esto es una cadena 
+Cadena = "Hola Mundo" 
 
-    Cadena = "Hola Mundo" 
-
-    print type(Entero) 
-    print type(Cadena) 
-
+print type(Entero) 
+print type(Cadena) 
+```
 Existen una serie de *"alias"* previstos para poder hacer comparaciones con los valores que retorna **type()**, de los cuales los más usado son los siguientes:
 
 * bool Para valores lógicos "Cierto" o "Falso", como se verá más adelante en este curso.
@@ -48,16 +48,16 @@ Los más habituales son los siguientes:
 * **float(MiVariable**) Convierte MiVariable a un número en coma flotante.
 
 El siguiente código cambiaría el tipo de dato de Entero **(int)** a Cadena **(str)**:
+```python
+#!/usr/bin/python
+# coding: UTF-8
 
-    #!/usr/bin/python
-    # coding: UTF-8
+# Esto es un entero
+Entero = 2000
 
-    # Esto es un entero
-    Entero = 2000
+#Convertimos a Cadena
+Cadena= str(Entero)
 
-    #Convertimos a Cadena
-    Cadena= str(Entero)
-
-    print type(Entero)
-
-    print type( Cadena) 
+print type(Entero)
+print type( Cadena) 
+```
