@@ -1,4 +1,4 @@
-## Ejercicio sobre variables
+## EJERCICIO SOBRE VARIABLES
 
 Haz un programa que permita asignar valores a dos variables (introducidas por teclado), las sume, e imprima tanto sus valores como el resultado en pantalla.
 
