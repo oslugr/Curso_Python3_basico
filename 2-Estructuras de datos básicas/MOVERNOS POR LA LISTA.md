@@ -5,38 +5,39 @@ Para movernos por la lista y acceder a uno de sus elementos utilizamos el nombre
 Vamos a ver un ejemplo:
 
 Tenemos la lista anterior
+```python
+lista = ["hola",69,"curso",[1,2,3,4,5]] print(lista[0]) 
 
-    lista = ["hola",69,"curso",[1,2,3,4,5]] print(lista[0]) 
+hola 
 
-    hola 
+print(lista[3])
 
-    print(lista[3])
-
-    [1, 2, 3, 4, 5]
+[1, 2, 3, 4, 5]
  
 
 Si queremos acceder al 2 dentro de la lista [1,2,3,4,5] es tan simple como:
 
-    print(lista[3][1]) 
+print(lista[3][1]) 
 
-    2
-
+2
+```
 Como vimos con el operador [ ] podemos hacer referencia a cualquier elemento de la lista de 0 a n-1 pero Python trae consigo algo que es recorrer la lista de último al primero utilizando números negativos veamos un ejemplo:
+```python
+nombres = ["Pablo","Fran","José Antonio","Juan Julián"]
 
-    nombres = ["Pablo","Fran","José Antonio","Juan Julián"]
+print (nombres[-1])
 
-    print (nombres[-1])
+Juan Julián
 
-    Juan Julián
+print (nombres[-4])
 
-    print (nombres[-4])
-
-    Pablo
-
+Pablo
+```
 Como siempre nos gusta poner a prueba el lenguaje; qué nos pasa si ponemos print(nombres[-5]) o print (nombres[4]). Nos genera un error que índice, lista fuera de rango así:
-
-    Traceback (most recent call last): 
+```python
+Traceback (most recent call last): 
  
-    File "", line 1, in  
+File "", line 1, in  
 
-    IndexError: list index out of range 
+IndexError: list index out of range 
+```
