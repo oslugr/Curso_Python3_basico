@@ -1,4 +1,4 @@
-## Introduciendo datos
+## INTRODUCIENDO DATOS
 
 Las variables no tendrían sentido si no hubiese un modo de asignarles valor.
 
