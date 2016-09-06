@@ -52,7 +52,6 @@ print "ID de la segunda variable:"
 print id(segunda_variable)
 
 # como vemos, la segunda ha cambiado
-view raw
 ```
 [ejemplo-ids.py](https://gist.github.com/psicobyte/8b833540812d24ea10a49b8cd54969de#file-ejemplo-ids-py) hosted with ❤ by [GitHub](https://github.com/)
 
@@ -104,7 +103,6 @@ print primera_lista
 print "segunda lista:"
 print segunda_lista
 # Han cambiado ambas!!!
-view raw
 ```
 [ejemplo-modificar-listas.py](https://gist.github.com/psicobyte/3b2102c51e2bd1030a6e351252332841#file-ejemplo-modificar-listas-py) hosted with ❤ by [GitHub](https://github.com/)
 
@@ -122,7 +120,6 @@ primera_lista = [1, 2, 3]
 # la copiamos en otra:
 
 segunda_lista = list(primera_lista)
-view raw
 ```
 [copiar-listas.py](https://gist.github.com/psicobyte/ca8cfaceebc209ba52cc86db3786f1a1#file-copiar-listas-py) hosted with ❤ by [GitHub](https://github.com/)
 
