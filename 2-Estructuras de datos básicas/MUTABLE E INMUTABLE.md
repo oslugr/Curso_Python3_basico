@@ -13,46 +13,47 @@ Python actúa de este modo porque es más eficiente a la hora de gestionar recur
 Pero ¿Qué pasa si modficamos el valor de una de las variables pero no el de la otra? Que Python elimina la etiqueta correspondiente a la variable modificada y crea una nueva variable (on un id interno distinto) con el nuevo valor.
 
 Veamoslo con un ejemplo:
+```python
+#/usr/bin/python
+# -*- coding: utf-8 -*-
 
-    #/usr/bin/python
-    # -*- coding: utf-8 -*-
+# Ejemplo de variables e IDs
 
-    # Ejemplo de variables e IDs
+# asignamos un valor a una variable:
 
-    # asignamos un valor a una variable:
+primera_variable = 5
 
-    primera_variable = 5
+# copiamos ese valor en otra:
 
-    # copiamos ese valor en otra:
+segunda_variable = primera_variable
 
-    segunda_variable = primera_variable
+# vamos a ver los id de cada una:
 
-    # vamos a ver los id de cada una:
+print "ANTES"
+print "ID de la primera variable:"
+print id(primera_variable)
 
-    print "ANTES"
-    print "ID de la primera variable:"
-    print id(primera_variable)
+print "ID de la segunda variable:"
+print id(segunda_variable)
+# como vemos, son el mismo.
 
-    print "ID de la segunda variable:"
-    print id(segunda_variable)
-    # como vemos, son el mismo.
+# modificamos la segunda:
 
-    # modificamos la segunda:
+segunda_variable = segunda_variable + 1
 
-    segunda_variable = segunda_variable + 1
+# Y volvemos a ver los id:
 
-    # Y volvemos a ver los id:
+print "DESPUES"
 
-    print "DESPUES"
+print "ID de la primera variable:"
+print id(primera_variable)
 
-    print "ID de la primera variable:"
-    print id(primera_variable)
+print "ID de la segunda variable:"
+print id(segunda_variable)
 
-    print "ID de la segunda variable:"
-    print id(segunda_variable)
-
-    # como vemos, la segunda ha cambiado
-    view raw
+# como vemos, la segunda ha cambiado
+view raw
+```
 [ejemplo-ids.py](https://gist.github.com/psicobyte/8b833540812d24ea10a49b8cd54969de#file-ejemplo-ids-py) hosted with ❤ by [GitHub](https://github.com/)
 
 Aunque este funcionamiento interno de Python es bastante distinto de otros lenguajes, esto no afecta al uso pr nuestra parte, y podemos trabajar como con cualquier otro.
@@ -66,61 +67,63 @@ Si modificamos una lista, el ID sigue siendo el mismo (porque, en realidad, hemo
 La consecuencia es que, si copiamos una lista en otra, y modificamos una de ellas ¡La otra también cambia!
 
 Este ejemplo seguramente aclare las cosas:
+```python
+#/usr/bin/python
+# -*- coding: utf-8 -*-
 
-    #/usr/bin/python
-    # -*- coding: utf-8 -*-
+# Ejemplo de listas e IDs
 
-    # Ejemplo de listas e IDs
+# creamos una lista:
 
-    # creamos una lista:
+primera_lista = [1, 2, 3]
 
-    primera_lista = [1, 2, 3]
+# la copiamos en otra:
 
-    # la copiamos en otra:
+segunda_lista = primera_lista
 
-    segunda_lista = primera_lista
+# las mostramos:
 
-    # las mostramos:
+print "primera lista:"
+print primera_lista
 
-    print "primera lista:"
-    print primera_lista
+print "segunda lista:"
+print segunda_lista
+# son iguales.
 
-    print "segunda lista:"
-    print segunda_lista
-    # son iguales.
+# modificamos el primer elemento de la segunda lista:
 
-    # modificamos el primer elemento de la segunda lista:
+segunda_lista[0] = 1000
 
-    segunda_lista[0] = 1000
+# y las mostramos otra vez:
 
-	# y las mostramos otra vez:
+print "DESPUES"
 
-	print "DESPUES"
+print "primera lista:"
+print primera_lista
 
-	print "primera lista:"
-	print primera_lista
-
-	print "segunda lista:"
-	print segunda_lista
-	# Han cambiado ambas!!!
-	view raw
+print "segunda lista:"
+print segunda_lista
+# Han cambiado ambas!!!
+view raw
+```
 [ejemplo-modificar-listas.py](https://gist.github.com/psicobyte/3b2102c51e2bd1030a6e351252332841#file-ejemplo-modificar-listas-py) hosted with ❤ by [GitHub](https://github.com/)
 
 Si queremos copiar una lista en otra y que realmente sean listas independientes, podemos hacerlo explícitamnete, usando la función "list()" de este modo:
+```python
+#/usr/bin/python
+# -*- coding: utf-8 -*-
 
-	#/usr/bin/python
-	# -*- coding: utf-8 -*-
+# Copiando listas
 
-	# Copiando listas
+# creamos una lista:
 
-	# creamos una lista:
+primera_lista = [1, 2, 3]
 
-	primera_lista = [1, 2, 3]
+# la copiamos en otra:
 
-	# la copiamos en otra:
-
-	segunda_lista = list(primera_lista)
-	view raw
+segunda_lista = list(primera_lista)
+view raw
+```
 [copiar-listas.py](https://gist.github.com/psicobyte/ca8cfaceebc209ba52cc86db3786f1a1#file-copiar-listas-py) hosted with ❤ by [GitHub](https://github.com/)
 
 Dejo como ejercicio para cada uno el probar que, efectivamente, esto crea dos listas distintas.
