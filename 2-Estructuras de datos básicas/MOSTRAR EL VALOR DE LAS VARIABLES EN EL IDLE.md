@@ -1,4 +1,4 @@
-## Mostrar el valor de las variables en el IDLE
+## MOSTRAR EL VALOR DE LAS VARIABLES EN EL IDLE
 
 Para que el IDLE nos muestre el valor de una variable, sólo tenemos que escribir su nombre.
 
