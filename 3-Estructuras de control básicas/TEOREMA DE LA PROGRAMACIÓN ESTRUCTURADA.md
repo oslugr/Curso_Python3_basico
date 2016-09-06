@@ -1,4 +1,4 @@
-#3 TEOREMA DE LA PROGRAMACIÓN ESTRUCTURADA
+## TEOREMA DE LA PROGRAMACIÓN ESTRUCTURADA
 
 El teorema de la programación estructurada afirma (y demuestra) que toda función computable puede codificarse usando sólo combinaciones de tres tipos de estructuras básicas:
 
