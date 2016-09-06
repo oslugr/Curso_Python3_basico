@@ -12,18 +12,19 @@ Si se modificara el objeto clave después de haber sido introducido en el diccio
 
 La diferencia principal entre los diccionarios y las listas o las tuplas es que a los valores almacenados en un diccionario se les accede no por su índice, porque de hecho no tienen orden, sino por su clave, utilizando de nuevo el operador **[]**.
 Por ejemplo:
-
-     mydict = {"altura" : "media", "habilidad" : "alta", "salario" : 999} print mydict {"altura" : "media", "habilidad" : "alta", 
-     "salario" : 999} print mydict ["habilidad"] alta 
-
+```python
+mydict = {"altura" : "media", "habilidad" : "alta", "salario" : 999} print mydict {"altura" : "media", "habilidad" : "alta", 
+"salario" : 999} print mydict ["habilidad"] alta 
+```
 También podemos comprobar la existencia de una clave en un diccionario usando has_key:
+```python
+if mydict.has_key ('altura'):
 
-    if mydict.has_key ('altura'):
-
-    print 'Nodo encontrado'
+print 'Nodo encontrado'
 
 También podríamos hacer :
 
-    if 'altura' in mydict:
+if 'altura' in mydict:
 
-    print 'Nodo encontrado'
+print 'Nodo encontrado'
+```
