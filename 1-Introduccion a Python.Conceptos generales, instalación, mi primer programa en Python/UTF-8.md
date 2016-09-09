@@ -6,13 +6,14 @@ Python, en principio, asume que la codificación es ASCII y, por tanto, no recon
 
 Para advertir a python de que este es el formato, la forma más simple es indicarlo por medio de una "Línea mágica". Justo debajo del shebang (eso de #!...), se coloca lo siguiente:
 
-`# -*- coding: utf-8 -*-`
-
+```python
+# -*- coding: utf-8 -*-
+```
 de modo que la cabecera quedaría más o menos así:
-
-    #!/usr/bin/python
-    # -*- coding: utf-8 -*-
-
+```python
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+```
 Con esto, el interprete de python debería admitir el uso de caracteres **UTF-8** en nuestros scripts. En cualquier caso, no es recomendable el uso de caracteres no **ASCII** en nombre de variables o funciones, etc.
 
 Para más detalles o casos más complejos, se recomienda consultar la [página de información](https://www.python.org/dev/peps/pep-0263/) que indica el propio mensaje de error.
