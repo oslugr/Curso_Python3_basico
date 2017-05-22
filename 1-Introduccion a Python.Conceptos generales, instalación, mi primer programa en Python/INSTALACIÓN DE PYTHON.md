@@ -6,9 +6,9 @@ Con esto lo que quiero decir es que, una vez instalado, al pinchar en el icono q
 
 ## ¿Qué versión debería instalar?
 
-En la [página de descarga de Python](https://www.python.org/downloads/) hay dos versiones principales: la 2.7 y la 3.1. Este curso está hecho principalmente con la 2.6, así que la que más se le acerca es la 2.7. Puedes instalar cualquiera de ellas, o las dos, pero aconsejamos para evitar diferencias que se instale la 2.7. En todo caso, actualmente es la versión más usada.
+En la [página de descarga de Python](https://www.python.org/downloads/) hay dos versiones principales: la 2.7 y la 3.1. Este curso está hecho principalmente con la 3, así que la que más se le acerca es la 3.1. Puedes instalar cualquiera de ellas, o las dos, pero aconsejamos para evitar diferencias que se instale la 3. En todo caso, actualmente es la versión más usada.
 
-Otra opción que te puedes instalar en un dispositivo portátil para usar en diferentes ordenadores es la [Portable Python](http://portablepython.com/). En este caso las versiones disponibles están basadas en la 2.6 o 3.0; aconsejamos que se instale la primera.
+Otra opción que te puedes instalar en un dispositivo portátil para usar en diferentes ordenadores es la [Portable Python](http://portablepython.com/). En este caso las versiones disponibles están basadas en la 2.6 o 3.0; aconsejamos que se instale la segunda.
 
 ![](https://github.com/oslugr/Curso_Python_basico/blob/master/img/python-windows-menui.png)
 
