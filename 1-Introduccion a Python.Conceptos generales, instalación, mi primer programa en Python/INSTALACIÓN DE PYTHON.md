@@ -10,7 +10,7 @@ En la [página de descarga de Python](https://www.python.org/downloads/) hay dos
 
 Otra opción que te puedes instalar en un dispositivo portátil para usar en diferentes ordenadores es la [Portable Python](http://portablepython.com/). En este caso las versiones disponibles están basadas en la 3.6.1 o 3.x; aconsejamos que se instale la primera.
 
-![](https://github.com/oslugr/Curso_Python_basico/blob/master/img/python-windows-menui.png)
+![](https://github.com/Makova/Curso_Python3_basico/blob/master/img/python-windows-menui.png)
 
 ## ¿Cómo instalo Python en mi ordenador?
 
@@ -20,11 +20,11 @@ En Windows o Macintosh hay que [descargar alguna de las opciones que se presenta
 
 En Windows 10 se sigue el proceso habitual en las instalaciones: ir haciendo click sobre "Next" hasta que se indique que se ha instalado. El sistema operativo te hará diferentes advertencias sobre que estás instalando un programa, a las que contestarás que sí, que por supuesto, que faltaría más. Si contestas que no, no te lo va a instalar, así que tendrás que contestar que sí.
 
-![](https://github.com/oslugr/Curso_Python_basico/blob/master/img/windows_install_python3.jpg)
+![](https://github.com/Makova/Curso_Python3_basico/blob/master/img/windows_install_python3.jpg)
 
-![](https://github.com/oslugr/Curso_Python_basico/blob/master/img/windows_install_python3-1.jpg)
+![](https://github.com/Makova/Curso_Python_basico3/blob/master/img/windows_install_python3-1.jpg)
 
-![](https://github.com/oslugr/Curso_Python_basico/blob/master/img/windows_install_python3-2.jpg)
+![](https://github.com/MakovaCurso_Python_basico3/blob/master/img/windows_install_python3-2.jpg)
 
 Os mostramos a continuación un screencast sobre la instalación en Ms Windows con ActivePython en versiones anteriores a Windows 10:
 
