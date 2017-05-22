@@ -14,7 +14,7 @@ Otra opción que te puedes instalar en un dispositivo portátil para usar en dif
 
 ## ¿Cómo instalo Python en mi ordenador?
 
-Si usas Linux ya sabes como hacerlo; usa tu programa favorito para descargártelo de los repositorios e instalarlo; es posible, de todas formas, que ya esté instalado en la distribución base; Ubuntu, Fedora, Guadalinex y otras ya lo incluyen por ser el lenguaje con el que se escriben muchas de las aplicaciones base que llevan. Para ver si está instalado abre un intérprete de órdenes (que también es posible que sepas como hacer, pero si no `Aplicaciones -> Accesorios -> Terminal`) y escribe `python --version` que debería devolver algo así `Python 2.6.5` Si no es así, tendrás que instalarlo.
+Si usas Linux ya sabes como hacerlo; usa tu programa favorito para descargártelo de los repositorios e instalarlo; es posible, de todas formas, que ya esté instalado en la distribución base; Ubuntu, Fedora, Guadalinex y otras ya lo incluyen por ser el lenguaje con el que se escriben muchas de las aplicaciones base que llevan. Para ver si está instalado abre un intérprete de órdenes (que también es posible que sepas como hacer, pero si no `Aplicaciones -> Accesorios -> Terminal`) y escribe `python --version` que debería devolver algo así `Python 3.6.1` Si no es así, tendrás que instalarlo.
 
 En Windows o Macintosh hay que [descargar alguna de las opciones que se presentan en la página de descargas](https://www.python.org/downloads/), teniendo en cuenta las observaciones hechas anteriormente.
 
