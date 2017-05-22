@@ -1,2 +1,2 @@
 # Curso Python basico
-Nuevo curso Python básico
+Nuevo curso Python 3 básico
