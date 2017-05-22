@@ -31,7 +31,7 @@ Os mostramos a continuación un screencast sobre la instalación en Ms Windows c
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Q4prb42X7N8" frameborder="0" allowfullscreen></iframe>
 https://www.youtube.com/embed/Q4prb42X7N8
 
-Lo que instalarás en versión anterior a Windows 10 será un intérprete de línea de comandos, que aparecerá en el menú como se muestra en la ilustración adjunta, con el texto Python (command line); es decir, Python (línea de órdenes). 
+Lo que instalarás en la versión Windows 10 será un intérprete de línea de comandos, que aparecerá en el menú como se muestra en la ilustración adjunta, con el texto Python (command line); es decir, Python (línea de órdenes). 
 
 ![](https://github.com/Makova/Curso_Python3_basico/blob/master/img/python-ventana-windows.jpg)
 
