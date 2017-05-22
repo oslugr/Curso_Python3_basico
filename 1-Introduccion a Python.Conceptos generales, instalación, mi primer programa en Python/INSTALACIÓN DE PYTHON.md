@@ -6,9 +6,9 @@ Con esto lo que quiero decir es que, una vez instalado, al pinchar en el icono q
 
 ## ¿Qué versión debería instalar?
 
-En la [página de descarga de Python](https://www.python.org/downloads/) hay dos versiones principales: la 2.7 y la 3.1. Este curso está hecho principalmente con la 3, así que la que más se le acerca es la 3.1. Puedes instalar cualquiera de ellas, o las dos, pero aconsejamos para evitar diferencias que se instale la 3. En todo caso, actualmente es la versión más usada.
+En la [página de descarga de Python](https://www.python.org/downloads/) hay dos versiones principales: la 2.7.13 y la 3.6.1. Este curso está hecho principalmente con la 3.6.1, así que la que más se le acerca es la 3.x. Puedes instalar cualquiera de ellas, o las dos, pero aconsejamos para evitar diferencias que se instale la 3.6.1. En todo caso, actualmente es la versión más avanzada.
 
-Otra opción que te puedes instalar en un dispositivo portátil para usar en diferentes ordenadores es la [Portable Python](http://portablepython.com/). En este caso las versiones disponibles están basadas en la 2.6 o 3.0; aconsejamos que se instale la segunda.
+Otra opción que te puedes instalar en un dispositivo portátil para usar en diferentes ordenadores es la [Portable Python](http://portablepython.com/). En este caso las versiones disponibles están basadas en la 3.6.1 o 3.x; aconsejamos que se instale la primera.
 
 ![](https://github.com/oslugr/Curso_Python_basico/blob/master/img/python-windows-menui.png)
 
@@ -29,7 +29,7 @@ Lo que instalarás en Windows será un intérprete de línea de comandos, que ap
 
 ![](https://github.com/oslugr/Curso_Python_basico/blob/master/img/python-ventana-windows.png)
 
-El resultado de la ejecución aparece arriba. Desde ahí se pueden ejecutar directamente órdenes en Python, como veremos más adelante. También se instala un fichero de ayuda al que se puede acceder desde el menú -> Todos los programas -> Python 2.7 -> Python Manuals (o Manuales de Python).
+El resultado de la ejecución aparece arriba. Desde ahí se pueden ejecutar directamente órdenes en Python, como veremos más adelante. También se instala un fichero de ayuda al que se puede acceder desde el menú -> Todos los programas -> Python 3.6 -> Python Manuals (o Manuales de Python).
 
 El paquete indicado anteriormente instala también un mini-entorno de desarrollo llamado IDLE, que se puede ejecutar desde el menú anterior eligiendo IDLE. Es un pequeño envoltorio de la línea de comandos, pero te permite cargar ficheros y salvarlos, al menos. Aunque no permite editar programas, sí permite probar órdenes y tiene alguna facilidad adicional como la expansión del nombre de las órdenes (pulsando tabulador). Se puede usar para hacer pruebas, o cuando se conozca más el lenguaje, depurar programas.
 
