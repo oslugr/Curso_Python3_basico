@@ -10,7 +10,7 @@ En la [página de descarga de Python](https://www.python.org/downloads/) hay dos
 
 Otra opción que te puedes instalar en un dispositivo portátil para usar en diferentes ordenadores es la [Portable Python](http://portablepython.com/). En este caso las versiones disponibles están basadas en la 3.6.1 o 3.x; aconsejamos que se instale la primera.
 
-![](https://github.com/Makova/Curso_Python3_basico/blob/master/img/python-windows-menui.png)
+![](https://github.com/Makova/Curso_Python3_basico/blob/master/img/python-windows-menui.jpg)
 
 ## ¿Cómo instalo Python en mi ordenador?
 
