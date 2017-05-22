@@ -18,14 +18,20 @@ Si usas Linux ya sabes como hacerlo; usa tu programa favorito para descargártel
 
 En Windows o Macintosh hay que [descargar alguna de las opciones que se presentan en la página de descargas](https://www.python.org/downloads/), teniendo en cuenta las observaciones hechas anteriormente.
 
-En Windows se sigue el proceso habitual en las instalaciones: ir haciendo click sobre "Next" hasta que se indique que se ha instalado. El sistema operativo te hará diferentes advertencias sobre que estás instalando un programa, a las que contestarás que sí, que por supuesto, que faltaría más. Si contestas que no, no te lo va a instalar, así que tendrás que contestar que sí.
+En Windows 10 se sigue el proceso habitual en las instalaciones: ir haciendo click sobre "Next" hasta que se indique que se ha instalado. El sistema operativo te hará diferentes advertencias sobre que estás instalando un programa, a las que contestarás que sí, que por supuesto, que faltaría más. Si contestas que no, no te lo va a instalar, así que tendrás que contestar que sí.
 
-Os mostramos a continuación un screencast sobre la instalación en Ms Windows:
+![](https://github.com/oslugr/Curso_Python_basico/blob/master/img/windows_install_python3.jpg)
+
+![](https://github.com/oslugr/Curso_Python_basico/blob/master/img/windows_install_python3-1.jpg)
+
+![](https://github.com/oslugr/Curso_Python_basico/blob/master/img/windows_install_python3-2.jpg)
+
+Os mostramos a continuación un screencast sobre la instalación en Ms Windows con ActivePython en versiones anteriores a Windows 10:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Q4prb42X7N8" frameborder="0" allowfullscreen></iframe>
 https://www.youtube.com/embed/Q4prb42X7N8
 
-Lo que instalarás en Windows será un intérprete de línea de comandos, que aparecerá en el menú como se muestra en la ilustración adjunta, con el texto Python (command line); es decir, Python (línea de órdenes). 
+Lo que instalarás en versión anterior a Windows 10 será un intérprete de línea de comandos, que aparecerá en el menú como se muestra en la ilustración adjunta, con el texto Python (command line); es decir, Python (línea de órdenes). 
 
 ![](https://github.com/oslugr/Curso_Python_basico/blob/master/img/python-ventana-windows.png)
 
