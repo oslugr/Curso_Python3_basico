@@ -9,6 +9,8 @@ En Python 3.x se sustituyo al `input` de Python 2.x, añadiendo la funcionalidad
 * Un ejemplo:
 
 ```python
+#!/usr/bin/env python3.6
+
 print ("Un programa para saber que edad te gustaría tener")
 
 nombre = input("¿Cuál es tú nombre? ")
