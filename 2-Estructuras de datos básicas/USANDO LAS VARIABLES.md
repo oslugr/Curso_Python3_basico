@@ -22,8 +22,8 @@ Entero = 32
 
 Cadena = "Hola Mundo" 
 
-print type("Entero") 
-print type("Cadena") 
+print(type(Entero)) 
+print(type(Cadena)) 
 ```
 Existen una serie de *"alias"* previstos para poder hacer comparaciones con los valores que retorna **type()**, de los cuales los más usado son los siguientes:
 
@@ -56,6 +56,6 @@ Entero = 2000
 #Convertimos a Cadena
 Cadena= str(Entero)
 
-print type("Entero")
-print type("Cadena") 
+print(type(Entero))
+print(type(Cadena)) 
 ```
