@@ -53,7 +53,7 @@ El siguiente código cambiaría el tipo de dato de Entero **(int)** a Cadena **(
 # Esto es un entero
 Entero = 2000
 
-#Convertimos a Cadena
+# Convertimos a Cadena
 Cadena= str(Entero)
 
 print(type(Entero))
