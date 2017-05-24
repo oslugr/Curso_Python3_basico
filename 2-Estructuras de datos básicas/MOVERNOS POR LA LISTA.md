@@ -42,7 +42,7 @@ IndexError: list index out of range
 
 
 Traceback (most recent call last):
-  File "otr_input.py", line 26, in <module>
+  File "nombres.py", line 26, in <module>
     print(nombres[4])
 IndexError: list index out of range
 ```
