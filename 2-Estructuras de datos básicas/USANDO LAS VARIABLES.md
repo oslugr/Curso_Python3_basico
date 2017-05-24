@@ -12,7 +12,7 @@ Por ejemplo:
 
 Prueba a ejecutar el siguiente código.
 ```python
-#!/usr/bin/python3.6
+#!/usr/bin/env python3.6
 
 # Esto es un entero
 
@@ -48,7 +48,7 @@ Los más habituales son los siguientes:
 
 El siguiente código cambiaría el tipo de dato de Entero **(int)** a Cadena **(str)**:
 ```python
-#!/usr/bin/python3.6
+#!/usr/bin/env python3.6
 
 # Esto es un entero
 Entero = 2000
