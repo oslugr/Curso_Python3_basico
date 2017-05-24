@@ -23,21 +23,26 @@ print(lista[3][1])
 ```
 Como vimos con el operador [ ] podemos hacer referencia a cualquier elemento de la lista de 0 a n-1 pero Python trae consigo algo que es recorrer la lista de último al primero utilizando números negativos veamos un ejemplo:
 ```python
-nombres = ["Pablo","Fran","José Antonio","Juan Julián"]
+nombres = ["Pablo","Manu","José Alonso","Renato"]
 
-print (nombres[-1])
+print(nombres[-1])
 
-Juan Julián
+Renato
 
-print (nombres[-4])
+print(nombres[-4])
 
 Pablo
 ```
 Como siempre nos gusta poner a prueba el lenguaje; qué nos pasa si ponemos print(nombres[-5]) o print (nombres[4]). Nos genera un error que índice, lista fuera de rango así:
 ```python
-Traceback (most recent call last): 
- 
-File "", line 1, in  
-
+Traceback (most recent call last):
+  File "nombres.py", line 26, in <module>
+    print(nombres[-5])
 IndexError: list index out of range 
+
+
+Traceback (most recent call last):
+  File "otr_input.py", line 26, in <module>
+    print(nombres[4])
+IndexError: list index out of range
 ```
