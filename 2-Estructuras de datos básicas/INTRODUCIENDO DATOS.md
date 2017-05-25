@@ -1,29 +1,21 @@
-## INTRODUCIENDO DATOS
+## INTRODUCIENDO DATOS CON INPUT()
 
-Las variables no tendrían sentido si no hubiese un modo de asignarles valor.
+### Input devuelve unicamente una cadena de texto en Python 3
 
-Se podría obligar al usuario a editar el código cada vez que quisiese cambiar el valor de una variable pero, probablemente, resultaría poco cómodo.
+En Python 2.x se utilizaban dos funciones para ingresar datos por un teclado, `raw_input()` pasándolo a una cadena de texto, e `input()` evaluándolo como un tipo:
 
-Para permitir al usuario asignar un valor a una variable en la línea de comandos, existe la función "input".
+En Python 3.x se sustituyo al `input` de Python 2.x, añadiendo la funcionalidad del `raw_input` como un nuevo `input()`. Si, suena lago raro, pero cómo este curso trata sobre Python 3.x lo que interesa es la funcion en sí, dejando a un lado el como se hacía, o no, antiguamente. 
 
-Su uso es muy simple:
+* Un ejemplo:
 
-`MiVariable= input('Texto de Prompt')`
+```python
+#!/usr/bin/env python3.6
 
-En el ejemplo anterior, **MiVariable** es la variable a la que le queremos asignar un valor, y **"Texto de Prompt"** es una cadena, elegida por nosotros, que se mostrará al solicitar el valor.
+print ("Un programa para saber que edad te gustaría tener")
 
-Por ejemplo:
+nombre = input("¿Cuál es tú nombre? ")
 
-`Edad= input('Introduzca su edad:')`
+primero = int(input("¿Qué edad tienes? "))
+segundo = int(input("¿Y la edad que quisieras tener? "))
 
-Mostraría en pantalla el texto **"Introduzca su edad:"** y esperaría a que el usuario introdujese el dato, que sería asignado a la variable **"Edad"**.
-
-Pero input(), de cara al usuario, tiene un problema que lo hace poco práctico.
-
-La función "input" espera que se le introduzcan los valores formateados al estilo Python. De modo que para asignarle una cadena, ésta debe ser introducida entre comillas, o dará un error.
-
-Para resolver esto, existe la función raw_input, que se comporta exactamente igual que input, pero considera toda entrada como una cadena:
-
-`Cadena= raw_input('Introduzca el texto que quiera:')`
-
-Esto soluciona el problema de cara al usuario, pero añade la incomodidad al programador de tener que transformar luego los tipos.
+print ("Si yo,",nombre,", con la edad de",primero-segundo,"me conformaría")
