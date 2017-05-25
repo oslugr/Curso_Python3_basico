@@ -14,8 +14,7 @@ Pero ¿Qué pasa si modficamos el valor de una de las variables pero no el de la
 
 Veamoslo con un ejemplo:
 ```python
-#/usr/bin/python
-# -*- coding: utf-8 -*-
+#/usr/bin/env python3.6
 
 # Ejemplo de variables e IDs
 
@@ -29,12 +28,12 @@ segunda_variable = primera_variable
 
 # vamos a ver los id de cada una:
 
-print "ANTES"
-print "ID de la primera variable:"
-print id(primera_variable)
+print("ANTES")
+print("ID de la primera variable:")
+print(id(primera_variable))
 
-print "ID de la segunda variable:"
-print id(segunda_variable)
+print("ID de la segunda variable:")
+print(id(segunda_variable))
 # como vemos, son el mismo.
 
 # modificamos la segunda:
@@ -43,13 +42,12 @@ segunda_variable = segunda_variable + 1
 
 # Y volvemos a ver los id:
 
-print "DESPUES"
+print("DESPUES")
+print("ID de la primera variable:")
+print(id(primera_variable))
 
-print "ID de la primera variable:"
-print id(primera_variable)
-
-print "ID de la segunda variable:"
-print id(segunda_variable)
+print("ID de la segunda variable:")
+print(id(segunda_variable))
 
 # como vemos, la segunda ha cambiado
 ```
@@ -67,8 +65,7 @@ La consecuencia es que, si copiamos una lista en otra, y modificamos una de ella
 
 Este ejemplo seguramente aclare las cosas:
 ```python
-#/usr/bin/python
-# -*- coding: utf-8 -*-
+#/usr/bin/env python3.6
 
 # Ejemplo de listas e IDs
 
@@ -82,11 +79,11 @@ segunda_lista = primera_lista
 
 # las mostramos:
 
-print "primera lista:"
-print primera_lista
+print("primera lista:")
+print(id(primera_lista))
 
-print "segunda lista:"
-print segunda_lista
+print("segunda lista:")
+print(id(segunda_lista))
 # son iguales.
 
 # modificamos el primer elemento de la segunda lista:
@@ -95,13 +92,13 @@ segunda_lista[0] = 1000
 
 # y las mostramos otra vez:
 
-print "DESPUES"
+print("DESPUES")
 
-print "primera lista:"
-print primera_lista
+print("primera lista:")
+print(id(primera_lista))
 
-print "segunda lista:"
-print segunda_lista
+print("segunda lista:")
+print(id(segunda_lista))
 # Han cambiado ambas!!!
 ```
 [ejemplo-modificar-listas.py](https://gist.github.com/psicobyte/3b2102c51e2bd1030a6e351252332841#file-ejemplo-modificar-listas-py) hosted with ❤ by [GitHub](https://github.com/)
