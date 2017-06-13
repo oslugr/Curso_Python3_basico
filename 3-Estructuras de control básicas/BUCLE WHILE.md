@@ -12,7 +12,7 @@ while condicion:
 Por ejemplo:
 ```python
 while a < 10:
-    print a
+    print(a)
     a = a + 1
 ```
 [Ejemplo while 2](https://gist.github.com/psicobyte/37c8f3f49d8bb66a8d38#file-ejemplo-while-2) hosted with ❤ by [GitHub](https://github.com)
