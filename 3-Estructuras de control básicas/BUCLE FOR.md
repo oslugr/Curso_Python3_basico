@@ -1,6 +1,6 @@
-*BUCLE FOR*
+**BUCLE FOR**
 
-El bucle **for** sirve para recorrer secuencialmente los elementos de una lista.
+El bucle *for* sirve para recorrer secuencialmente los elementos de una lista.
 
 La estructura de for es la siguiente: 
 ```python
@@ -21,7 +21,7 @@ print("Odio las coles")
 
 Este ejemplo imprimirá cada uno de los valores de la lista "Huerto", a menos que este sea "col", en cuyo caso imprimirá el texto "Odio las coles".
 
-El bucle **for**, al igual que vimos con **while**, también permite el uso de una cláusula **"else"** que se ejecutará cuando no quede ningún valor en la lista.
+El bucle *for*, al igual que vimos con *while*, también permite el uso de una cláusula *"else"* que se ejecutará cuando no quede ningún valor en la lista.
 ```python
 for Variable in Lista:
     instrucciones
