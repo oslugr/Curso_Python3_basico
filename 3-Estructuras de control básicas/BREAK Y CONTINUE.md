@@ -27,7 +27,7 @@ while x < 9:
     x = x + 1
     if x == 5:
         continue
-    print x
+    print(x)
 ```
 
 Este ejemplo, pese a ser casi idéntico al anterior, tiene un resultado distinto. Esta vez se imprimirán todos los números del 1 al 10 (como está especificado en la cláusula del *while*), pero 
