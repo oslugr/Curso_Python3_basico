@@ -22,7 +22,7 @@ except:
 print("No puedes dividir por cero, animal")
 ```
 
-El bloque dentro de *try* es ejecutado y **si retorna cualquier error**, entonces ejecuta el bloque contenido en *except*. en caso contrario se continúa la ejecución del programa ignorando ese bloque.
+El bloque dentro de *try* es ejecutado y **si retorna cualquier error**, entonces ejecuta el bloque contenido en *except*, en caso contrario se continúa la ejecución del programa ignorando ese bloque.
 
 (De acuerdo, la descrita es una solución muy limitada, pero se puede incluir en un bucle mayor para que permita volver a introducir el dato, etc...)
 
