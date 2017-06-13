@@ -14,7 +14,7 @@ Huerto = ["zanahoria", "col", "lechuga", "col"]
 
 for Planta in Huerto:
     if Planta != "col"
-        print Planta
+        print(Planta)
     else
 print("Odio las coles")
 ```
