@@ -8,5 +8,7 @@ print("mis ñus són animales de ñulandía jeje")
 En Geany habrá que especificar que utilice Python3 en `> Construir > Establecer comandos de construcción`:
 
 ![](https://github.com/Makova/Curso_Python3_basico/blob/master/img/python3-Geany1.png)
+
+
 ![](https://github.com/Makova/Curso_Python3_basico/blob/master/img/python3-Geany2.png)
 
