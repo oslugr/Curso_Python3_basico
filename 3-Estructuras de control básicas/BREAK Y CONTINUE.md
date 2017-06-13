@@ -8,10 +8,10 @@ Por ejemplo:
 ```python
 x= 0
 while x < 10:
-    if x == 5
+    if x == 5:
         break
-    print x
-x = x + 1
+    print(x)
+    x = x + 1
 ```
 
 Este bucle se interrumpirá cuando x valga 5 (valor que no llegará a imprimirse), aunque se siga cumpliendo la condición de while.
@@ -27,7 +27,7 @@ while x < 9:
     x = x + 1
     if x == 5:
         continue
-print x
+    print x
 ```
 
 Este ejemplo, pese a ser casi idéntico al anterior, tiene un resultado distinto. Esta vez se imprimirán todos los números del 1 al 10 (como está especificado en la cláusula del *while*), pero 
