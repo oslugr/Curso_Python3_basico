@@ -13,10 +13,10 @@ Esto ejecutaría "instrucciones" para cada elemento de "Lista", que se ha ido al
 Huerto = ["zanahoria", "col", "lechuga", "col"]
 
 for Planta in Huerto:
-    if Planta != "col"
+    if Planta != "col":
         print(Planta)
-    else
-print("Odio las coles")
+else:
+  print("Odio las coles")
 ```
 
 Este ejemplo imprimirá cada uno de los valores de la lista "Huerto", a menos que este sea "col", en cuyo caso imprimirá el texto "Odio las coles".
@@ -25,7 +25,7 @@ El bucle *for*, al igual que vimos con *while*, también permite el uso de una c
 ```python
 for Variable in Lista:
     instrucciones
-else
+else:
 ya_no_quedan_elementos
 ```
 
