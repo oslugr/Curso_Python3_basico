@@ -10,6 +10,6 @@ Vamos a ver cómo se puede crear una lista:
 
 Como observamos nuestra lista principal tiene un string "hola", un entero 69 y otra lista, y por último otra lista dentro de la lista.
 
-    print (lista) 
+    print(lista) 
 
     ['hola', 69, 'curso', [1, 2, 3, 4, 5]] 

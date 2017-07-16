@@ -8,14 +8,13 @@ En realidad, en Python, las variables deberían ser vistas como etiquetas, más 
 
 Esto sirve tanto para variables, como para funciones, objetos, etc.
 
-Python actúa de este modo porque es más eficiente a la hora de gestionar recursos. Por ejemplo, cuando asignamos el valor de esa variable a otra (haciendo algo como "variable2 = variable1") python no crea una vriable nueva, sino que asigna una nueva "etiqueta" al valor incial, de modo que tenemos un sólo dato almacenado en la memoria, pero referenciado por dos nombres distintos.
+Python actúa de este modo porque es más eficiente a la hora de gestionar recursos. Por ejemplo, cuando asignamos el valor de esa variable a otra (haciendo algo como "variable2 = variable1") python no crea una variable nueva, sino que asigna una nueva "etiqueta" al valor incial, de modo que tenemos un sólo dato almacenado en la memoria, pero referenciado por dos nombres distintos.
 
 Pero ¿Qué pasa si modficamos el valor de una de las variables pero no el de la otra? Que Python elimina la etiqueta correspondiente a la variable modificada y crea una nueva variable (on un id interno distinto) con el nuevo valor.
 
 Veamoslo con un ejemplo:
 ```python
-#/usr/bin/python
-# -*- coding: utf-8 -*-
+#/usr/bin/env python3.6
 
 # Ejemplo de variables e IDs
 
@@ -29,12 +28,12 @@ segunda_variable = primera_variable
 
 # vamos a ver los id de cada una:
 
-print "ANTES"
-print "ID de la primera variable:"
-print id(primera_variable)
+print("ANTES")
+print("ID de la primera variable:")
+print(id(primera_variable))
 
-print "ID de la segunda variable:"
-print id(segunda_variable)
+print("ID de la segunda variable:")
+print(id(segunda_variable))
 # como vemos, son el mismo.
 
 # modificamos la segunda:
@@ -43,32 +42,30 @@ segunda_variable = segunda_variable + 1
 
 # Y volvemos a ver los id:
 
-print "DESPUES"
+print("DESPUES")
+print("ID de la primera variable:")
+print(id(primera_variable))
 
-print "ID de la primera variable:"
-print id(primera_variable)
-
-print "ID de la segunda variable:"
-print id(segunda_variable)
+print("ID de la segunda variable:")
+print(id(segunda_variable))
 
 # como vemos, la segunda ha cambiado
 ```
 [ejemplo-ids.py](https://gist.github.com/psicobyte/8b833540812d24ea10a49b8cd54969de#file-ejemplo-ids-py) hosted with ❤ by [GitHub](https://github.com/)
 
-Aunque este funcionamiento interno de Python es bastante distinto de otros lenguajes, esto no afecta al uso pr nuestra parte, y podemos trabajar como con cualquier otro.
+Aunque este funcionamiento interno de Python es bastante distinto de otros lenguajes, esto no afecta al uso por nuestra parte, y podemos trabajar como con cualquier otro.
 
-Escepto por un detalle.
+Excepto por un detalle.
 
-Normalmente, cuando modificamos una variable, esta es destruída y creada una nueva. pero si se trata de, por ejemplo, una lista, esto no ocurre así.
+Normalmente, cuando modificamos una variable, esta es destruída y creada una nueva, pero si se trata de, por ejemplo, una lista, esto no ocurre así.
 
-Si modificamos una lista, el ID sigue siendo el mismo (porque, en realidad, hemos modificado uno o más elemmentos de la lista, lno la lista en sí).
+Si modificamos una lista, el ID sigue siendo el mismo (porque, en realidad, hemos modificado uno o más elemmentos de la lista, no la lista en sí).
 
 La consecuencia es que, si copiamos una lista en otra, y modificamos una de ellas ¡La otra también cambia!
 
 Este ejemplo seguramente aclare las cosas:
 ```python
-#/usr/bin/python
-# -*- coding: utf-8 -*-
+#/usr/bin/env python3.6
 
 # Ejemplo de listas e IDs
 
@@ -82,11 +79,11 @@ segunda_lista = primera_lista
 
 # las mostramos:
 
-print "primera lista:"
-print primera_lista
+print("primera lista:")
+print(id(primera_lista))
 
-print "segunda lista:"
-print segunda_lista
+print("segunda lista:")
+print(id(segunda_lista))
 # son iguales.
 
 # modificamos el primer elemento de la segunda lista:
@@ -95,13 +92,13 @@ segunda_lista[0] = 1000
 
 # y las mostramos otra vez:
 
-print "DESPUES"
+print("DESPUES")
 
-print "primera lista:"
-print primera_lista
+print("primera lista:")
+print(id(primera_lista))
 
-print "segunda lista:"
-print segunda_lista
+print("segunda lista:")
+print(id(segunda_lista))
 # Han cambiado ambas!!!
 ```
 [ejemplo-modificar-listas.py](https://gist.github.com/psicobyte/3b2102c51e2bd1030a6e351252332841#file-ejemplo-modificar-listas-py) hosted with ❤ by [GitHub](https://github.com/)

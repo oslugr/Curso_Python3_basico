@@ -12,8 +12,7 @@ Por ejemplo:
 
 Prueba a ejecutar el siguiente código.
 ```python
-#!/usr/bin/python 
-# coding: UTF-8 
+#!/usr/bin/env python3.6
 
 # Esto es un entero
 
@@ -23,8 +22,8 @@ Entero = 32
 
 Cadena = "Hola Mundo" 
 
-print type(Entero) 
-print type(Cadena) 
+print(type(Entero)) 
+print(type(Cadena)) 
 ```
 Existen una serie de *"alias"* previstos para poder hacer comparaciones con los valores que retorna **type()**, de los cuales los más usado son los siguientes:
 
@@ -49,15 +48,14 @@ Los más habituales son los siguientes:
 
 El siguiente código cambiaría el tipo de dato de Entero **(int)** a Cadena **(str)**:
 ```python
-#!/usr/bin/python
-# coding: UTF-8
+#!/usr/bin/env python3.6
 
 # Esto es un entero
 Entero = 2000
 
-#Convertimos a Cadena
-Cadena= str(Entero)
+# Convertimos a Cadena
+Cadena = str(Entero)
 
-print type(Entero)
-print type( Cadena) 
+print(type(Entero))
+print(type(Cadena)) 
 ```

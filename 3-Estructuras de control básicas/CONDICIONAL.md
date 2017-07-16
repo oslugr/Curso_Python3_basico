@@ -41,10 +41,10 @@ En la que se dan varias opciones, que se ejecutarán cuando sea cierta la expres
 Por ejemplo:
 ```python
 if x > 10:
-    print "La variable es mayor que diez"
+    print("La variable es mayor que diez")
 elif x < 10:
-    print "La variable es menor que diez"
+    print("La variable es menor que diez")
 else:
-    print "La variable es, precisamente, diez"
+    print("La variable es, precisamente, diez")
 ```
 [Ejemplo-if-4](https://gist.github.com/psicobyte/eb7a19e6d515c053462f#file-ejemplo-if-4) hosted with ❤ by [GitHub](https://github.com) 
