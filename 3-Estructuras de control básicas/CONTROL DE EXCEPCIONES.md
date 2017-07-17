@@ -67,3 +67,5 @@ print("La divisón resulta: ", resultado)
 ```
 
 Nota que dentro del *try* hemos dejado sólo la instrucción que requiere que verifiquemos, dejando el *"print"* en el else final.
+
+    10
