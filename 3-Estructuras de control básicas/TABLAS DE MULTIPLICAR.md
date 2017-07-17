@@ -7,3 +7,5 @@ Escribe un programa que imprima todas las tablas de multiplicar desde la del 2 h
 Trata de formatearlas claramente.
 
 El alumno enviara el **32_nombrealumno.py**, para comprobar su funcionamiento.
+
+  Ejercicio 2
