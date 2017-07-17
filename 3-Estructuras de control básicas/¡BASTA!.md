@@ -15,3 +15,5 @@ Volver a pedir...
 Un resumen final del tipo "Has soportado estoicamente X preguntas" quedaría muy bonito.
 
 El alumno enviara el archivo **33_nombrealumno.py**, para comprobar su funcionamiento.
+
+  Ejercicio 3

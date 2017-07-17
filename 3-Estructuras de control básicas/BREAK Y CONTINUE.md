@@ -32,3 +32,5 @@ while x < 9:
 
 Este ejemplo, pese a ser casi idéntico al anterior, tiene un resultado distinto. Esta vez se imprimirán todos los números del 1 al 10 (como está especificado en la cláusula del *while*), pero 
 omitiendo el 5 (que ha sido saltado por el *continue*).
+
+    9

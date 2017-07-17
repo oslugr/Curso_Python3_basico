@@ -26,3 +26,5 @@ Los operadores de comparación son los siguientes:
 Todos estos operadores retornarán valores de "cierto" o "falso".
 
 Se pueden unir proposiciones con los habituales operadores lógicos "and" (y) y "or" (o), y también existe la preposición "not" (no), para invertir el valor de verdad.
+
+  5

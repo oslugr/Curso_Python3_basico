@@ -31,3 +31,5 @@ ya_no_quedan_elementos
 
 A veces, este tipo de bucle puede resultar poco intuitivo. Aquellos que estén acostumbrados a otros lenguajes de programación comprobarán que el uso de for 
 en Python (como una herramienta de recorrido de arrays) se corresponde, a lo que en lenguajes como Perl se llamaría foreach, más que a un for típico.
+
+  8

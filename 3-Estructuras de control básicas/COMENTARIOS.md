@@ -44,3 +44,5 @@ Además, pŕacticamente todo programa debería empezar con un comentario indican
 [Comentarios 4](https://gist.github.com/psicobyte/84e38fa5e13149515fd8#file-comentarios-4) hosted with ❤ by [GitHub](https://github.com/)
 
 ¿Te ha sabido a poco? Un método más avanzado de mantener una buena documentación en Python es por medio de Docstrings.
+
+  4

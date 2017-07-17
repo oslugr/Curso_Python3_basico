@@ -20,3 +20,5 @@ instruccion_independiente
 [Anidamiento en Python](https://gist.github.com/psicobyte/6163957#file-anidamiento-en-python) hosted with ❤ by [GitHub](https://github.com/)
 
 Se recomienda encarecidamente que no se use realmente el carácter tabulador **(ASCII 09)** para indentar, si no que se usen espacios. Lo recomendable, según Guido van Rossum, son cuatro espacios por cada nivel de indentación (Sin embargo, Linus Torvalds considera cualquier tabulación de menos de 8 caracteres como una herejía). Nunca mezcles indentados por espacios e indentados por tabulador.
+
+    3

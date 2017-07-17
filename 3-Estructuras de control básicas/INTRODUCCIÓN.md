@@ -6,3 +6,5 @@ Las estructuras condicionales son constructos de software que se encargan de com
 
 
 Un bucle (ciclo, loop) es un segmento de código que se ejecuta repetidas veces mientras se cumpla una condición determinada.
+
+  1

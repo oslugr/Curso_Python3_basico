@@ -17,3 +17,5 @@ Se ejecuta una orden mientras una condición sea cierta. O (lo que viene a ser l
 Cualquier otra estructura (como, por ejemplo y sobre todo, el famoso -e infame- GOTO) es prescindible o sustituible por las anteriores y, en general, sólo contribuye a dificultar la legibilidad del código.
 
 Respecto a esto último, el polémico y genial Edsger Dijkstra dijo del lenguaje BASIC y su uso extensivo de la sentencia GOTO que "[...] la enseñanza de BASIC debería ser considerada un delito penal: Mutila la mente más allá de toda recuperación".
+
+  2
