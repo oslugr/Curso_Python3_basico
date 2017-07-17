@@ -48,3 +48,5 @@ else:
     print("La variable es, precisamente, diez")
 ```
 [Ejemplo-if-4](https://gist.github.com/psicobyte/eb7a19e6d515c053462f#file-ejemplo-if-4) hosted with ❤ by [GitHub](https://github.com) 
+
+    6
