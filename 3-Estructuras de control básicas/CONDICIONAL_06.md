@@ -1,6 +1,6 @@
 ## CONDICIONAL
 
-En Python, el anidamiento de funciones no se hace con llaves ni otros símbolos contenedores, si no por medio de la indentación. Las instrucciones con un nivel de indentación (un tabulador) están contenidas en las que no están indentadas que les preceden, las instrucciones con dos tabuladores están incluidas en las anteriores, etc.
+En `Python`, el anidamiento de funciones no se hace con llaves ni otros símbolos contenedores, si no por medio de la indentación. Las instrucciones con un nivel de indentación (un tabulador) están contenidas en las que no están indentadas que les preceden, las instrucciones con dos tabuladores están incluidas en las anteriores, etc.
 
 La estructura básica para el control del flujo de un programa es el "si condicional", que permite la ejecución de un segmento de código dependiendo de las condiciones concretas.
 ```python
@@ -49,4 +49,3 @@ else:
 ```
 [Ejemplo-if-4](https://gist.github.com/psicobyte/eb7a19e6d515c053462f#file-ejemplo-if-4) hosted with ❤ by [GitHub](https://github.com) 
 
-    6

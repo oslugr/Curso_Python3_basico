@@ -6,9 +6,7 @@ Por ejemplo, para practicar la geometría decides escribir un programa que calcu
 
 Para el ejemplo se crean dos clases y las dos tienen el mismo método *getArea()* pero se implementa de forma diferente para cada clase. Esto es polimorfismo.
 ```python
-
-!#/usr/bin/env python
-# -*- coding: utf-8 -*-
+!#/usr/bin/env python3
  
 class Triangulo:
     def __init__(self, ancho, alto):
@@ -30,6 +28,6 @@ class Rectangulo:
 miTriangulo = Triangulo(3,6)
 miRectangulo = Rectangulo(5)
  
-print miTriangulo.getArea()
-print miRectangulo.getArea()
+print (miTriangulo.getArea())
+print (miRectangulo.getArea())
 ```

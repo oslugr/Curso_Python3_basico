@@ -1,4 +1,4 @@
-**Control de excepciones**
+## CONTROL DE EXCEPCIONES
 
 Cosas como la clásica división por cero o el tratamiento de tipos de datos incompatibles (sumar cadenas, por ejemplo) provocarán errores en tiempo de ejecución (excepciones) que darán al traste con el programa.
 
@@ -68,4 +68,3 @@ print("La divisón resulta: ", resultado)
 
 Nota que dentro del *try* hemos dejado sólo la instrucción que requiere que verifiquemos, dejando el *"print"* en el else final.
 
-    10

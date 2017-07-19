@@ -8,7 +8,7 @@ En el mismo script escribe un ejemplo práctico usando los diferentes métodos p
 
 ### -- IMPORTANTE --
 
-El nombre del fichero a entregar debe tener el siguiente formato:
+>El nombre del fichero a entregar debe tener el siguiente formato:
 **nombre_apellido1_apellido2.py** por ejemplo:
 para Ángela De Rueda Muiños el nombre de fichero quedaría *angela_derueda_muinios.py*
 No se deben incluir vocales con acentos, la letra *'ñ'* ni espacios en blanco.

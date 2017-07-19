@@ -4,7 +4,7 @@ Para ayudar a mantener el código, indicar detalles o, en general, añadir texto
 
 En Python, los comentarios comienzan con el signo almohadilla ]](#)]] seguido de un espacio.
 
-La siguiente línea sería un comentario y, por lo tanto, sería ignorada por el intérprete de python:
+La siguiente línea sería un comentario y, por lo tanto, sería ignorada por el intérprete de `Python`:
 ```python
 # Esto es un comentario`
 ```
@@ -43,6 +43,5 @@ Además, pŕacticamente todo programa debería empezar con un comentario indican
 ```
 [Comentarios 4](https://gist.github.com/psicobyte/84e38fa5e13149515fd8#file-comentarios-4) hosted with ❤ by [GitHub](https://github.com/)
 
-¿Te ha sabido a poco? Un método más avanzado de mantener una buena documentación en Python es por medio de Docstrings.
+¿Te ha sabido a poco? Un método más avanzado de mantener una buena documentación en `Python` es por medio de `Docstrings`.
 
-  4

@@ -1,6 +1,6 @@
-**Break y continue**
+## BREAK Y CONTINUE
 
-Adicionalmente al control que nos permiten las instrucciones *for* y *while*, Python nos ofrece herramientas para ajustar su comportamiento.
+Adicionalmente al control que nos permiten las instrucciones *for* y *while*, `Python` nos ofrece herramientas para ajustar su comportamiento.
 
 La sentencia break, dentro de for o while, permite interrumpir el flujo normal del bucle, saliendo automáticamente de él independientemente de si se cumple o no la condición del bucle.
 
@@ -13,7 +13,6 @@ while x < 10:
     print(x)
     x = x + 1
 ```
-
 Este bucle se interrumpirá cuando x valga 5 (valor que no llegará a imprimirse), aunque se siga cumpliendo la condición de while.
 
 Hay que precisar que *break* sale **completamente** del bucle, con lo que no se ejecutará tampoco ninguna instrucción "else" que este pudiera tener.
@@ -30,7 +29,5 @@ while x < 9:
     print(x)
 ```
 
-Este ejemplo, pese a ser casi idéntico al anterior, tiene un resultado distinto. Esta vez se imprimirán todos los números del 1 al 10 (como está especificado en la cláusula del *while*), pero 
-omitiendo el 5 (que ha sido saltado por el *continue*).
+Este ejemplo, pese a ser casi idéntico al anterior, tiene un resultado distinto. Esta vez se imprimirán todos los números del 1 al 10 (como está especificado en la cláusula del *while*), pero omitiendo el 5 (que ha sido saltado por el *continue*).
 
-    9
