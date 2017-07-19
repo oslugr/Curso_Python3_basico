@@ -1,3 +1,5 @@
+> 6
+
 Ahora, en Python 3, las cadenas por defecto son Unicode (utf-8), por tanto ya no que hay que declarar ni
 guardar el archivo en esa codificación, ni con la anterior `# -*- coding: utf-8 -*-` línea debajo del shebang (pero tampoco pasa nada si se deja puesto, no da error por ello).
 

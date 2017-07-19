@@ -1,3 +1,5 @@
+> 2
+
 Python es un lenguaje de programación creado por Guido van Rossum a principios de los años 90 para administración de sistemas operativos, en concreto de uno olvidado denominado Amoeba.
 
 Como tal es un lenguaje interpretado, dirigido a objetos, y limpio por usar en su sintaxis el mínimo de caracteres innecesarios. Por eso mismo es un lenguaje claro muy adecuado como primer lenguaje de programación, aunque es actualmente un lenguaje maduro que se puede usar para todo tipo de aplicaciones, desde aplicaciones web hasta temas relacionado con la bioinformática.
