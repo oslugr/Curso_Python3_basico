@@ -1,3 +1,6 @@
+> Libre de poner o no
+
+
 Aunque en español la palabra libre no tiene tantas connotaciones como la inglesa free, lo cierto es que hablar de libre tiene cierta ambigüedad: hablamos de software libre como hablamos del sol cuando amanece, no como cuando hablamos de que hay barra libre ni buffet libre. La idea del software libre, la principal, es exactamente eso, que sea libre, no que sea gratis. Por eso, la definición canónica de software libre incluye cuatro libertades
 - La libertad de usar el software de cualquier modo que consideremos razonable.
 - La libertad de estudiar cómo funciona el programa, para lo cual hay que tener acceso al código fuente.

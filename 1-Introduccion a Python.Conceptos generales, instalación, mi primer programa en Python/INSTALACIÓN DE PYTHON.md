@@ -1,3 +1,5 @@
+> 3
+
 ## Introducción y advertencia
 
 Python es un lenguaje interpretado, y como tal, lo que se instala es una aplicación que necesitarás cargar cada vez que quieras ejecutar un programa en tal lenguaje. No es un entorno de programación; es decir, no es un entorno completo que te permita editar, ejecutar, depurar el programa y demás. Para eso existen diferentes opciones que veremos más adelante.
