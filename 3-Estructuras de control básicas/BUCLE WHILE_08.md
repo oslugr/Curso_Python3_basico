@@ -29,4 +29,3 @@ else
 ```
 [Ejemplo while 3](https://gist.github.com/psicobyte/cf8864c3dc5d8e82d6a9#file-ejemplo-while-3) hosted with ❤ by [GitHub](https://github.com) 
 
-    7
